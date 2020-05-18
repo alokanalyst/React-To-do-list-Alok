@@ -7,7 +7,7 @@ export default class TodoList extends Component {
     return (
       <div>
         <ul className="list-group my-5">
-          <h3 className="text-capitalize text-center">todo list</h3>
+          <h3 className="text-capitalize text-center">Todo List</h3>
           {items.map((item) => {
             return (
               <TodoItem
